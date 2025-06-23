@@ -1,0 +1,24 @@
+# 🛡️ Log Analysis using Python
+
+## 📌 Description
+This project focuses on analyzing system log files (such as `auth.log`) to identify failed login attempts and suspicious activity. It simulates a basic SOC task of log filtering, data extraction, and reporting.
+
+## 🛠️ Tools & Skills Used
+- Python (with Regex and File I/O)
+- Linux Log Files (`/var/log/auth.log`)
+- Basic Log Forensics
+- Cybersecurity Analysis
+
+## 🔍 What It Does
+- Parses log file line‑by‑line
+- Extracts IP addresses, timestamps, and login failures
+- Generates a simple report of failed login sources
+
+## 📁 Files
+- `log_parser.py`: The script for parsing logs
+- `sample-auth.log`: Sample log file (optional/test data)
+
+## ✅ Learning Outcome
+- Understanding log structure in Linux
+- Using Python to automate SOC tasks
+- Practicing threat detection and analysis basics
